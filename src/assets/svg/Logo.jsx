@@ -1,5 +1,5 @@
 import * as React from "react";
-import iot_flaticon from "../../assets/svg/iot_flaticon.png";
+import drmz_twd_logo from "../../assets/svg/drmz_twd_logo.png";
 
 function SvgComponent(props) {
   return (
@@ -14,7 +14,7 @@ function SvgComponent(props) {
     // <img className="logo_twd" src="https://thewebdev.tech/static/ce59ef6831a6ff9cba3b957baece8d8c/a3e81/logo.webp" height="80" width="80" alt="logo"/>
     <img
       className="logo_drmz"
-      src={iot_flaticon}
+      src={drmz_twd_logo}
       height="100"
       width="100"
       alt="logo"

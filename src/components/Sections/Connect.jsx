@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 //assets
-import pic02 from "../../assets/img/pic02.jpg";
+// import pic02 from "../../assets/img/pic02.jpg";
+import office from "../../assets/img/office";
 import hand_index_finger from "../../assets/img/Right hand index_finger.png";
 
 export default function Connect() {
@@ -14,12 +15,10 @@ export default function Connect() {
         <div className="container">
           <HeaderInfo>
             {/* <h1 className="font40 extraBold sec_headings">CONNECT</h1> */}
-            <img className="connect_image" src={pic02} alt="connect_img" />
-            <ul className="connect_lists">
+            <img className="connect_image" src={office} alt="connect_img" />
+            {/* <ul className="connect_lists">
               <li>
-                I know that you must be receiving tons of emails from a lot of
-                marketers, and don't want to connect. But this one is from a
-                developer.
+               We have two branches. One at Indrapuri and other at MP Nagar.
               </li>
               <li>
                 I know that you might have seen my content on YouTube or
@@ -32,7 +31,35 @@ export default function Connect() {
                 or a content piece or, my only intention is to help you succeed
                 in our life and career.
               </li>
-            </ul>
+            </ul> */}
+
+            <div className="address_container">
+              <h2 id="main-heading">
+                WE HAVE <b className="two">TWO</b> BRANCHES
+              </h2>
+              <div className="row">
+                <div className="a1 col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <h2 className="address1_heading">Address - I</h2>
+                  <div className="address1_details">
+                    <h3>Blue Ocean Tech Solutions Pvt. Ltd.</h3>
+                    <p>
+                      Shop no 63-64, Block - G, Sahkari Parisar Phase I,Near
+                      Piplani Petrol Pump, Kalpana Nagar on the main road.
+                    </p>
+                  </div>
+                </div>
+                <div className="a2 col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <h2 className="address2_heading">Address - II</h2>
+                  <div className="address2_details">
+                    <h3>Drmztech (Drmz system innovations Pvt Ltd)</h3>
+                    <p>
+                      Plot no. 69B, near Chetak bridge, Kasturba Nagar, Bhopal,
+                      Madhya Pradesh 462011
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
             <a
               href="https://twd-codes.ck.page/5ac21f764b"
               target="_blank"

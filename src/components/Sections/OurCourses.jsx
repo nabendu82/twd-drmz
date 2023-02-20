@@ -80,41 +80,102 @@ export default function Ourcourses() {
           <div className="cards_sec">
             <div className="row">
               <div className="card col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
-                <h1 className="card_heading">ONLINE BATCH</h1>
+                <h1 className="card_heading">HTML-CSS PHYSICAL BOOTCAMP</h1>
                 <img className="batch" src={Onlinecourse} alt="online" />
                 <a
-                  href="https://imojo.in/QhaBRd"
+                  href="https://docs.google.com/document/d/1UMIjI8qxIg2xzKmvUNGIJXSylgfxTyujbxsSook0Bfg/edit?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <button className="enroll_btn animate pointer radius8">
-                    Enroll Now
+                    Learn more
                   </button>
                 </a>
               </div>
               <div className="card2 col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
-                <h1 className="card_heading">PHYSICAL BATCH</h1>
+                <h1 className="card_heading">
+                  JAVASCRIPT-REACT PHYSICAL BOOTCAMP
+                </h1>
                 <img className="batch" src={Offlinecourse} alt="offline" />
                 <a
-                  href="https://imojo.in/QhaBR2"
+                  href="https://docs.google.com/document/d/1UZs2O0mejUxr2CTasrN7ZEVclDDiZj4UfLwl1LWQOws/edit?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <button className="enroll_btn1 animate pointer radius8">
-                    Enroll Now
+                    Learn more
                   </button>
                 </a>
               </div>
               <div className="card3 col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
-                <h1 className="card_heading">PHYSICAL BATCH - LODGING</h1>
+                <h1 className="card_heading">ADVANCED REACT-NODE-NEXTJS</h1>
                 <img className="batch3" src={Physical_lodging} alt="css" />
                 <a
-                  href="https://imojo.in/QhaBR3"
+                  href="https://docs.google.com/document/d/1__EKGfOYHONQtcfk1r8Zp_qJAytc3wUdavvZKPGOtEU/edit?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <button className="enroll_btn1 animate pointer radius8">
-                    Enroll Now
+                    Learn more
+                  </button>
+                </a>
+              </div>
+              <div className="card4 col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
+                <h1 className="card_heading">REACT-NATIVE PHYSICAL BATCH</h1>
+                <img className="batch" src={Recorded_Premium} alt="css" />
+                <a
+                  href="https://docs.google.com/document/d/10taK84fuu9pjtXj-GVxH54Ud4TEQr-e6f2a1oZUqw_o/edit?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="enroll_btn1 animate pointer radius8">
+                    Learn more
+                  </button>
+                </a>
+              </div>
+            </div>
+            {/* second row */}
+            <div className="row">
+              <div className="card col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
+                <h1 className="card_heading">ANGULAR PHYSICAL BATCH</h1>
+                <img className="batch" src={Onlinecourse} alt="online" />
+                <a
+                  href="https://docs.google.com/document/d/158i7tXSXeOCehs-QhqyWGQyejNQh_bQhS2uAHW9xu5g/edit?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="enroll_btn animate pointer radius8">
+                    Learn more
+                  </button>
+                </a>
+              </div>
+              <div className="card2 col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
+                <h1 className="card_heading" style={{ width: "12vw" }}>
+                  IoT WITH ARDUINO UNO & ESP32
+                </h1>
+                <img className="batch" src={Offlinecourse} alt="offline" />
+                <a
+                  href="https://docs.google.com/document/d/1yzVAuArvSxvo_Xe_AhLI77mCpPtpH7e0/edit?usp=sharing&ouid=115889291254491795887&rtpof=true&sd=true"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="enroll_btn1 animate pointer radius8">
+                    Learn more
+                  </button>
+                </a>
+              </div>
+              <div className="card3 col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
+                <h1 className="card_heading" style={{ width: "15vw" }}>
+                  EMBEDDED SYSTEM WITH AVR CONTROLLER
+                </h1>
+                <img className="batch3" src={Physical_lodging} alt="css" />
+                <a
+                  href="https://docs.google.com/document/d/12waWysUn-1iTFJb6EQNpOZsrgIwXqgY9/edit?usp=sharing&ouid=115889291254491795887&rtpof=true&sd=true"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="enroll_btn1 animate pointer radius8">
+                    Learn more
                   </button>
                 </a>
               </div>
@@ -127,7 +188,7 @@ export default function Ourcourses() {
                   rel="noreferrer"
                 >
                   <button className="enroll_btn1 animate pointer radius8">
-                    Enroll Now
+                    Learn more
                   </button>
                 </a>
               </div>

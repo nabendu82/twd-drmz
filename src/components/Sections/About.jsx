@@ -2,7 +2,18 @@ import React from "react";
 import styled from "styled-components";
 
 //assets
-import pic03 from "../../assets/img/pic03.png";
+import about_nabendu_pic from "../../assets/img/about_nabendu_pic.jpeg";
+// import pic03 from "../../assets/img/pic03.png";
+import Nabendu from "../../assets/img/Nabendu.jfif";
+import Sudesh from "../../assets/img/Sudesh.png";
+import Mousam from "../../assets/img/Mousam";
+import demo from "../../assets/img/demo";
+
+import facebook_icon from "../../assets/img/facebook_icon.svg";
+import insta_icon from "../../assets/img/insta_icon.svg";
+import twitter_icon from "../../assets/img/twitter_icon.svg";
+import youtube_icon from "../../assets/img/youtube_icon.svg";
+import linkedin_icon from "../../assets/img/linkedin_icon.svg";
 
 export default function About() {
   return (
@@ -16,7 +27,11 @@ export default function About() {
             {/* <h1 className="font40 extraBold sec_headings">ABOUT</h1> */}
             <div className="row">
               <div className="about_block_1 col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <img src={pic03} alt="about_image" className="about_image" />
+                <img
+                  src={about_nabendu_pic}
+                  alt="about_image"
+                  className="about_image"
+                />
                 <p className="font13 about_content">
                   My name is <b>Nabendu Biswas</b> and i have{" "}
                   <b>
@@ -71,7 +86,7 @@ export default function About() {
                     <div className="social_links">
                       <li>
                         <a
-                          href="https://www.amazon.in/s?i=digital-text&rh=p_27%3ANabendu+Biswas"
+                          href="https://www.amazon.in/s?i=digital-text&rh=p_27%3ANabendu+Biswas&s=relevancerank&text=Nabendu+Biswas&ref=dp_byline_sr_ebooks_1"
                           rel="noreferrer"
                           target="_blank"
                         >
@@ -80,7 +95,7 @@ export default function About() {
                       </li>
                       <li>
                         <a
-                          href="https://www.youtube.com/channel/UCRf7mazcufqZxd2pR3oQJuQ"
+                          href="https://www.youtube.com/c/TheWebDev?sub_confirmation=1"
                           rel="noreferrer"
                           target="_blank"
                         >
@@ -137,7 +152,11 @@ export default function About() {
                 </div>
               </div>
               <div className="about_block_2 col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <img src={pic03} alt="about_image" className="about_image" />
+                <img
+                  src={about_nabendu_pic}
+                  alt="about_image"
+                  className="about_image"
+                />
                 <p className="font13 about_content">
                   My name is <b>Sudesh Morey</b>. I am Founder and Director of
                   <b> Drmz System Innovations Pvt.Ltd</b> I did my engineering
@@ -265,56 +284,271 @@ export default function About() {
           <div className="our_team_card">
             <div className="team_card_sec">
               <div className="row">
-                <div className="col-3">
+                <div className="col-12 cards_container">
                   <div className="team_card">
-                    <div className="profile_card">
+                    <div className="team_card_background">
                       <img
-                        className="profile_pic"
-                        src={pic03}
+                        className="card-img-top"
+                        src={Nabendu}
                         alt="profile_pic"
                       />
                     </div>
-                    <h1 className="profile_name">Hello</h1>
-                    <p className="profile_para">CEO</p>
+                    <ul className="card_img_icons">
+                      <li>
+                        <a href="https://www.linkedin.com/in/nabendu-biswas/">
+                          <img
+                            className="utube_icon"
+                            src={linkedin_icon}
+                            alt="profile_img"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.youtube.com/c/TheWebDev?sub_confirmation=1">
+                          <img
+                            className="utube_icon"
+                            src={youtube_icon}
+                            alt="profile_img"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.instagram.com/nabendu.codes">
+                          <img
+                            className="img_on_icons"
+                            src={insta_icon}
+                            alt="profile_img"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.facebook.com/nabendu.biswas.77"
+                          rel="noreferrer"
+                        >
+                          <img
+                            className="img_on_icons"
+                            src={facebook_icon}
+                            alt="profile_img"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://twitter.com/nabendu82"
+                          rel="noreferrer"
+                        >
+                          <img
+                            className="img_on_icons"
+                            src={twitter_icon}
+                            alt="profile_img"
+                          />
+                        </a>
+                      </li>
+                    </ul>
+                    <div className="card-body">
+                      <h4 className="card-heading">Nabendu Biswas</h4>
+                      <p className="card__para">Product Designer</p>
+                      <p className="card_description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Unde, delectus!
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div className="col-3">
+
                   <div className="team_card">
-                    <div className="profile_card">
+                    <div className="team_card_background">
                       <img
-                        className="profile_pic"
-                        src={pic03}
+                        className="card-img-top"
+                        src={Sudesh}
                         alt="profile_pic"
                       />
                     </div>
-                    <h1>Hello</h1>
-                    <p>CEO</p>
+                    <ul className="card_img_icons">
+                      <li>
+                        <a href="https://www.linkedin.com/in/sudesh-morey-1007218/">
+                          <img
+                            className="utube_icon"
+                            src={linkedin_icon}
+                            alt="profile_img"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/#">
+                          <img
+                            className="utube_icon"
+                            src={youtube_icon}
+                            alt="profile_img"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/#">
+                          <img
+                            className="img_on_icons"
+                            src={insta_icon}
+                            alt="profile_img"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/#" rel="noreferrer">
+                          <img
+                            className="img_on_icons"
+                            src={facebook_icon}
+                            alt="profile_img"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/#" rel="noreferrer">
+                          <img
+                            className="img_on_icons"
+                            src={twitter_icon}
+                            alt="profile_img"
+                          />
+                        </a>
+                      </li>
+                    </ul>
+                    <div className="card-body">
+                      <h4 className="card-heading">Sudhesh Morey</h4>
+                      <p className="card__para">Product Designer</p>
+                      <p className="card_description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Unde, delectus!
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div className="col-3">
+
                   <div className="team_card">
-                    <div className="profile_card">
+                    <div className="team_card_background">
                       <img
-                        className="profile_pic"
-                        src={pic03}
+                        className="card-img-top"
+                        src={Mousam}
                         alt="profile_pic"
                       />
                     </div>
-                    <h1>Hello</h1>
-                    <p>CEO</p>
+                    <ul className="card_img_icons">
+                      <li>
+                        <a href="/#">
+                          <img
+                            className="utube_icon"
+                            src={linkedin_icon}
+                            alt="profile_img"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/#">
+                          <img
+                            className="utube_icon"
+                            src={youtube_icon}
+                            alt="profile_img"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/#">
+                          <img
+                            className="img_on_icons"
+                            src={insta_icon}
+                            alt="profile_img"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/#" rel="noreferrer">
+                          <img
+                            className="img_on_icons"
+                            src={facebook_icon}
+                            alt="profile_img"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/#" rel="noreferrer">
+                          <img
+                            className="img_on_icons"
+                            src={twitter_icon}
+                            alt="profile_img"
+                          />
+                        </a>
+                      </li>
+                    </ul>
+                    <div className="card-body">
+                      <h4 className="card-heading">Mousam Mishra</h4>
+                      <p className="card__para">Product Designer</p>
+                      <p className="card_description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Unde, delectus!
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div className="col-3">
+
                   <div className="team_card">
-                    <div className="profile_card">
+                    <div className="team_card_background">
                       <img
-                        className="profile_pic"
-                        src={pic03}
+                        className="card-img-top"
+                        src={demo}
                         alt="profile_pic"
                       />
                     </div>
-                    <h1>Hello</h1>
-                    <p>CEO</p>
+                    <ul className="card_img_icons">
+                      <li>
+                        <a href="/#">
+                          <img
+                            className="utube_icon"
+                            src={linkedin_icon}
+                            alt="profile_img"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/#">
+                          <img
+                            className="utube_icon"
+                            src={youtube_icon}
+                            alt="profile_img"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/#">
+                          <img
+                            className="img_on_icons"
+                            src={insta_icon}
+                            alt="profile_img"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/#" rel="noreferrer">
+                          <img
+                            className="img_on_icons"
+                            src={facebook_icon}
+                            alt="profile_img"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/#" rel="noreferrer">
+                          <img
+                            className="img_on_icons"
+                            src={twitter_icon}
+                            alt="profile_img"
+                          />
+                        </a>
+                      </li>
+                    </ul>
+                    <div className="card-body">
+                      <h4 className="card-heading">Shikha Biswas</h4>
+                      <p className="card__para">Product Designer</p>
+                      <p className="card_description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Unde, delectus!
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
