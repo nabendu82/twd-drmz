@@ -49,7 +49,7 @@ export default function TopNavbar() {
                 to="home"
                 spy={true}
                 smooth={true}
-                offset={-80}
+                offset={-90}
               >
                 HOME
               </Link>
@@ -61,7 +61,7 @@ export default function TopNavbar() {
                 to="learn"
                 spy={true}
                 smooth={true}
-                offset={-80}
+                offset={-90}
               >
                 OUR COURSES
               </Link>

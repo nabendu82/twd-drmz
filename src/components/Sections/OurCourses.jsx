@@ -180,10 +180,10 @@ export default function Ourcourses() {
                 </a>
               </div>
               <div className="card4 col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
-                <h1 className="card_heading">RECORDED PREMIUM COURSE</h1>
+                <h1 className="card_heading">C C++ COURSE</h1>
                 <img className="batch" src={Recorded_Premium} alt="css" />
                 <a
-                  href="https://imojo.in/wAdrcz"
+                  href="https://docs.google.com/document/d/1er8_NPcmXysgVNfeJcUEHH6Mr2QKv8gG/edit?usp=share_link&ouid=115889291254491795887&rtpof=true&sd=true"
                   target="_blank"
                   rel="noreferrer"
                 >

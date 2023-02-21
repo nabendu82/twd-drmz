@@ -625,11 +625,6 @@ body {
   margin: 10px 0px;
   width: 100%;
 }
-
-/* .meet_content {
-  text-align: left;
-
-} */
 .learn_school_link {
   transition: color .2s ease-in-out,
     background-color .2s ease-in-out,
@@ -648,8 +643,8 @@ body {
 .about_image {
   border-radius: 5px;
   /* margin-top: 20px; */
-  height: 350px;
-  width: 95%;
+  height: 345px;
+  width: 100%;
   margin: 0px 20px 5px 0px;
   object-fit: cover;
 }
@@ -965,6 +960,11 @@ ul.links_container2 {
   border-radius: 50%;
 }
 /* ABOUT */
+.links_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .our_team {
  height: 600px;
  /* width: 1000px; */
@@ -1016,6 +1016,10 @@ ul.links_container2 {
   font-weight: bold;
   font-size: 1.2rem;
   margin-top: 10px;
+}
+.team_card:hover .card-heading{
+  color: #cf1e2b;
+  transition: 0.8s all ease-in-out;
 }
 .card__para {
   color: #222;
@@ -1112,7 +1116,7 @@ ul.card_img_icons .img_on_icons, .utube_icon{
 }
 
 .address_container {
-  height:300px;
+  height:400px;
   padding: 2% 0%;
 }
 #main-heading{
@@ -1171,6 +1175,23 @@ ul.card_img_icons .img_on_icons, .utube_icon{
 .address1_details p,
 .address2_details p {
   width: 400px;
+}
+.location_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.location_container1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.location_container a,.location_container1 a,.mobile_num{
+  color: rgb(0, 152, 201);
+}
+.map_icon {
+  height: 80px;
+  width: 75px;
 }
 /* Media querys */
 @media all and (min-width:360px) and (max-width: 768px) {

@@ -7,7 +7,7 @@ import ClientLogo02 from "../../assets/img/clients/css-3.svg";
 // import ClientLogo03 from "../../assets/img/clients/bootstrap-5-1.svg";
 import ClientLogo03 from "../../assets/img/clients/javascript-1.svg";
 import ClientLogo04 from "../../assets/img/clients/react-1.svg";
-import ClientLogo05 from "../../assets/img/clients/redux.svg";
+import ClientLogo05 from "../../assets/img/clients/iot_5.png";
 import ClientLogo06 from "../../assets/img/clients/nodejs_svgviewer-output.svg";
 // import ClientLogo07 from "../../assets/img/clients/angular-icon-1.svg";
 

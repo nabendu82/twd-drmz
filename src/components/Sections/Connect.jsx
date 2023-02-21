@@ -5,6 +5,7 @@ import styled from "styled-components";
 // import pic02 from "../../assets/img/pic02.jpg";
 import office from "../../assets/img/office";
 import hand_index_finger from "../../assets/img/Right hand index_finger.png";
+import map_icon from "../../assets/img/map_icon.png";
 
 export default function Connect() {
   return (
@@ -15,7 +16,6 @@ export default function Connect() {
         <div className="container">
           <HeaderInfo>
             {/* <h1 className="font40 extraBold sec_headings">CONNECT</h1> */}
-            <img className="connect_image" src={office} alt="connect_img" />
             {/* <ul className="connect_lists">
               <li>
                We have two branches. One at Indrapuri and other at MP Nagar.
@@ -46,6 +46,19 @@ export default function Connect() {
                       Shop no 63-64, Block - G, Sahkari Parisar Phase I,Near
                       Piplani Petrol Pump, Kalpana Nagar on the main road.
                     </p>
+                    <a className="mobile_num" href="tel:+07554928128">
+                      0755 492 8128
+                    </a>
+                    <div className="location_container">
+                      <img className="map_icon" src={map_icon} alt="map_icon" />
+                      <a
+                        href="https://maps.app.goo.gl/H2gr2m89xn49V6G18"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        Location
+                      </a>
+                    </div>
                   </div>
                 </div>
                 <div className="a2 col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -56,6 +69,19 @@ export default function Connect() {
                       Plot no. 69B, near Chetak bridge, Kasturba Nagar, Bhopal,
                       Madhya Pradesh 462011
                     </p>
+                    <a className="mobile_num" href="tel:+07554236935">
+                      0755 423 6935
+                    </a>
+                    <div className="location_container1">
+                      <a
+                        href="https://maps.app.goo.gl/VxF7EMEvq7tmTjRC6"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        Location
+                      </a>
+                      <img className="map_icon" src={map_icon} alt="map_icon" />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -69,6 +95,7 @@ export default function Connect() {
                 connect
               </button>
             </a>
+            <img className="connect_image" src={office} alt="connect_img" />
             <ul className="connect_icons">
               <li className="follow_us">
                 <b style={{ marginTop: "10px" }}>Follow Us</b>
