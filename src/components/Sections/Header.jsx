@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 // import ReactPlayer from "react-player";
-import header_img from "../../assets/img/header_img.jpg";
+import header_img from "../../assets/img/header_img.png";
 
 export default function Header() {
   return (
@@ -18,7 +18,7 @@ export default function Header() {
       </LeftSide>
       <RightSide>
         <ImageWrapper>
-          <img src={header_img} alt="about_image" className="about_image" />
+          <img src={header_img} alt="header_image" className="header_image" />
           {/* <ReactPlayer controls url="https://youtu.be/fnABJznWWMg" /> */}
         </ImageWrapper>
         <GreyDiv className="lightBg"></GreyDiv>
@@ -45,7 +45,7 @@ const LeftSide = styled.div`
     text-align: center;
   }
   @media (max-width: 560px) {
-    margin: 80px 0 50px 0;
+    margin: 50px 0 50px 0;
   }
 `;
 const RightSide = styled.div`

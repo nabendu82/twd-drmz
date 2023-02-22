@@ -138,11 +138,31 @@ export default function About() {
                 <div className="social_links">
                   <li>
                     <a
-                      href="https://www.amazon.in/s?i=digital-text&rh=p_27%3ANabendu+Biswas&s=relevancerank&text=Nabendu+Biswas&ref=dp_byline_sr_ebooks_1"
+                      href="https://www.linkedin.com/in/nabendu-biswas/"
                       rel="noreferrer"
                       target="_blank"
                     >
-                      GatsbyJS Books
+                      LinkedIn
+                    </a>{" "}
+                    <b style={{ color: "black" }}>- Nabendu</b>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/sudesh-morey-1007218/"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      LinkedIn
+                    </a>{" "}
+                    <b style={{ color: "black" }}>- Sudesh</b>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/nabendu.codes/"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      Instagram
                     </a>{" "}
                     <b style={{ color: "black" }}>- Nabendu</b>
                   </li>
@@ -152,53 +172,7 @@ export default function About() {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      Youtube
-                    </a>{" "}
-                    <b style={{ color: "black" }}>- Nabendu</b>
-                  </li>
-                  <li>
-                    <a
-                      href="https://open.spotify.com/show/1ZHMluBRqUEJ0qjbZXc0xE"
-                      rel="noreferrer"
-                      target="_blank"
-                    >
-                      Podcast
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.facebook.com/groups/thewebdev4u"
-                      rel="noreferrer"
-                      target="_blank"
-                    >
-                      Exclusive Facebook Group
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://t.me/joinchat/H6llKYR0a05hNmI1"
-                      rel="noreferrer"
-                      target="_blank"
-                    >
-                      Exclusive Telegram Group
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://thewebdev.tech/"
-                      rel="noreferrer"
-                      target="_blank"
-                    >
-                      Blog
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://linktr.ee/nabendu.biswas"
-                      rel="noreferrer"
-                      target="_blank"
-                    >
-                      Linktree
+                      TWD Youtube Channel
                     </a>
                   </li>
                 </div>
@@ -276,10 +250,10 @@ export default function About() {
                     </ul>
                     <div className="card-body">
                       <h4 className="card-heading">Nabendu Biswas</h4>
-                      <p className="card__para">Managing Director, TWD</p>
+                      <p className="card__para">Founder & ReactJS, TWD</p>
                       <p className="card_description">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Unde, delectus!
+                        16+ Years of IT Experience in top companies like Oracle
+                        and JP Morgan
                       </p>
                     </div>
                   </div>
@@ -358,7 +332,7 @@ export default function About() {
                     </div>
                     <ul className="card_img_icons">
                       <li>
-                        <a href="/#">
+                        <a href="https://www.linkedin.com/in/mousammishra/">
                           <img
                             className="utube_icon"
                             src={linkedin_icon}
@@ -405,10 +379,10 @@ export default function About() {
                     </ul>
                     <div className="card-body">
                       <h4 className="card-heading">Mousam Mishra</h4>
-                      <p className="card__para">Product Designer</p>
+                      <p className="card__para">CSS Expert & Trainer, TWD</p>
                       <p className="card_description">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Unde, delectus!
+                        3+ Years of Experience building and Teaching,
+                        Web-development. Overall 16+ years experience.
                       </p>
                     </div>
                   </div>

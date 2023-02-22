@@ -150,9 +150,7 @@ export default function Ourcourses() {
                 </a>
               </div>
               <div className="card2 col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
-                <h1 className="card_heading" style={{ width: "12vw" }}>
-                  IoT WITH ARDUINO UNO & ESP32
-                </h1>
+                <h1 className="card_heading">IoT WITH ARDUINO UNO & ESP32</h1>
                 <img className="batch" src={Offlinecourse} alt="offline" />
                 <a
                   href="https://docs.google.com/document/d/1yzVAuArvSxvo_Xe_AhLI77mCpPtpH7e0/edit?usp=sharing&ouid=115889291254491795887&rtpof=true&sd=true"
@@ -165,7 +163,7 @@ export default function Ourcourses() {
                 </a>
               </div>
               <div className="card3 col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
-                <h1 className="card_heading" style={{ width: "15vw" }}>
+                <h1 className="card_heading">
                   EMBEDDED SYSTEM WITH AVR CONTROLLER
                 </h1>
                 <img className="batch3" src={Physical_lodging} alt="css" />

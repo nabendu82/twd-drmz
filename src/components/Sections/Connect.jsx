@@ -87,7 +87,7 @@ export default function Connect() {
               </div>
             </div>
             <a
-              href="https://twd-codes.ck.page/5ac21f764b"
+              href="https://forms.gle/drAjRPfR1zbDvym37"
               target="_blank"
               rel="noreferrer"
             >

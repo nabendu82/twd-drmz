@@ -49,10 +49,10 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             smooth={true}
             offset={-60}
           >
-            LEARN
+            OUR COURSES
           </Link>
         </li>
-        <li className="semiBold font18 pointer">
+        {/* <li className="semiBold font18 pointer">
           <Link
             onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
@@ -65,7 +65,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           >
             MEET
           </Link>
-        </li>
+        </li> */}
         <li className="semiBold font18 pointer">
           <Link
             onClick={() => toggleSidebar(!sidebarOpen)}
@@ -94,7 +94,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             CONNECT
           </Link>
         </li>
-        <li className="semiBold font18 pointer">
+        {/* <li className="semiBold font18 pointer">
           <Link
             onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
@@ -107,7 +107,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           >
             REVIEWS
           </Link>
-        </li>
+        </li> */}
       </UlStyle>
     </Wrapper>
   );
@@ -141,7 +141,7 @@ const CloseBtn = styled.button`
   }
 `;
 const UlStyle = styled.ul`
-  margin: 0 0 0 10px;
+  margin: 0 0 0 20px;
   li {
     margin: 20px 20px;
   }
