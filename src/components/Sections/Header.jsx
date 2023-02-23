@@ -9,7 +9,7 @@ export default function Header() {
       <LeftSide className="flexCenter">
         <div className="block_1">
           <h1 className="main_heading extraBold font60">
-            Industry ready job oriented courses.
+            Industry ready job oriented courses 🚀
           </h1>
           <HeaderP className="main_para font13 semiBold">
             We are teaching Web and IoT technologies.
@@ -63,7 +63,7 @@ const HeaderP = styled.div`
   line-height: 1.5rem;
   font-size: 18px;
   @media (max-width: 960px) {
-    padding: 15px 0 50px 0;
+    padding: 15px 0 15px 0;
     text-align: center;
     max-width: 100%;
   }

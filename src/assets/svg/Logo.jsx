@@ -16,7 +16,7 @@ function SvgComponent(props) {
       className="logo_drmz"
       src={drmz_twd_logo}
       height="100"
-      width="100"
+      width="120"
       alt="logo"
     />
   );

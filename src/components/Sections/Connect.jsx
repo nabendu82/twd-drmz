@@ -5,7 +5,6 @@ import styled from "styled-components";
 // import pic02 from "../../assets/img/pic02.jpg";
 import office from "../../assets/img/office";
 import hand_index_finger from "../../assets/img/Right hand index_finger.png";
-import map_icon from "../../assets/img/map_icon.png";
 
 export default function Connect() {
   return (
@@ -15,24 +14,6 @@ export default function Connect() {
         <h1 className="font60 full_stack_heading">CONNECT</h1>
         <div className="container">
           <HeaderInfo>
-            {/* <h1 className="font40 extraBold sec_headings">CONNECT</h1> */}
-            {/* <ul className="connect_lists">
-              <li>
-               We have two branches. One at Indrapuri and other at MP Nagar.
-              </li>
-              <li>
-                I know that you might have seen my content on YouTube or
-                LinkedIn. And then you found something valuable, which got us
-                connected.
-              </li>
-              <li>I will promise you one thing...</li>
-              <li>
-                Every single email I send you, whether it's a webinar reminder
-                or a content piece or, my only intention is to help you succeed
-                in our life and career.
-              </li>
-            </ul> */}
-
             <div className="address_container">
               <h2 id="main-heading">
                 WE HAVE <b className="two">TWO</b> BRANCHES
@@ -49,17 +30,16 @@ export default function Connect() {
                     <a className="mobile_num" href="tel:+07554928128">
                       0755 492 8128
                     </a>
-                    <div className="location_container">
-                      <img className="map_icon" src={map_icon} alt="map_icon" />
-                      <a
-                        href="https://maps.app.goo.gl/H2gr2m89xn49V6G18"
-                        rel="noreferrer"
-                        target="_blank"
-                      >
-                        Location
-                      </a>
-                    </div>
                   </div>
+                  <iframe
+                    title="Blue Ocean Tech Solutions"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.8212870397997!2d77.47424331477397!3d23.249589484838587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c41fa2c504707%3A0x1fcbee5d8737498e!2sBlue%20Ocean%20Tech%20Solutions%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1677078583609!5m2!1sen!2sin"
+                    width="300"
+                    height="200"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
                 </div>
                 <div className="a2 col-xs-12 col-sm-6 col-md-6 col-lg-6">
                   <h2 className="address2_heading">Address - II</h2>
@@ -72,17 +52,17 @@ export default function Connect() {
                     <a className="mobile_num" href="tel:+07554236935">
                       0755 423 6935
                     </a>
-                    <div className="location_container1">
-                      <a
-                        href="https://maps.app.goo.gl/VxF7EMEvq7tmTjRC6"
-                        rel="noreferrer"
-                        target="_blank"
-                      >
-                        Location
-                      </a>
-                      <img className="map_icon" src={map_icon} alt="map_icon" />
-                    </div>
                   </div>
+                  <iframe
+                    className="iframe_drmz"
+                    title="Drmztech"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.2532037309184!2d77.43814321477363!3d23.23387138484652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c42684e8d0c45%3A0x8f1b50c93f4b5b0!2sDrmztech%20(Drmz%20system%20innovations%20Pvt%20Ltd)!5e0!3m2!1sen!2sin!4v1677079297197!5m2!1sen!2sin"
+                    width="300"
+                    height="200"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
                 </div>
               </div>
             </div>
@@ -92,7 +72,7 @@ export default function Connect() {
               rel="noreferrer"
             >
               <button className="connect_btn animate pointer radius8">
-                connect
+                Contact Us
               </button>
             </a>
             <img className="connect_image" src={office} alt="connect_img" />

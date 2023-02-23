@@ -129,59 +129,6 @@ a:hover {
   color: #fe5f50;
 }
 
-/* TABLE */
-/* .table {
-  width: 100%;
-  padding: 0px;
-  cursor: pointer;
-}
-
-thead tr td {
-  font-weight: bold;
-  padding: 5px;
-  cursor: default;
-}
-
-tbody tr td {
-  height: 90px;
-  vertical-align: middle;
-  font-size: 18px;
-}
-
-thead tr td:last-child {
-  border-right: none;
-}
-
-.month_name {
-  width: max-content;
-  margin: 10px auto;
-}
-
-.weeks {
-  background-color: #f0e86c;
-  color: #000;
-  font-weight: bold;
-  width: 90px;
-} */
-
-/* SUNDAY Background-color */
-/* #my-element_5,
-#my-element_12,
-#my-element_19,
-#my-element_26 {
-  background-color: #000 !important;
-} */
-
-/* Last month dates background-color */
-/* #my-element_29,
-#my-element_30,
-#my-element_31,
-#my-element_32,
-#my-element_33,
-#my-element_34,
-#my-element_35 {
-  background-color: #444 !important;
-} */
 
 @media all and (max-width:759px) {
   .mini_nav:hover {
@@ -367,7 +314,7 @@ body {
 }
 
 .font60 {
-  font-size: 3.75rem;
+  font-size: 3.7rem;
   line-height: 4.5rem;
 }
 
@@ -590,33 +537,6 @@ body {
   border-radius: 8px; */
 }
 
-/* .utube {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 70px;
-  background-color: #f0e86c;
-  border-radius: 5px;
-} */
-
-/* .utube_heading {
-  height: 100px;
-  width: 125px;
-  margin-right: 10px;
-}
-
-.live {
-  margin: 2px 0 0 8px;
-  height: 55px;
-}
-
-.span_sch {
-  color: #000000;
-  font-weight: bold;
-  font-size: 28px;
-  margin-top: 10px;
-  cursor: default;
-} */
 
 .about_content,
 .meet_content {
@@ -678,11 +598,6 @@ ul.links_container2 {
   margin-right: 10px;
 }
 
-/* .links_container li{
-  margin-left: 20px;
-  border-bottom: 1px solid #7620FF;
-  width: 200px;
-} */
 .social_links {
   margin: 20px 0 0 50px;
   text-align: left;
@@ -708,68 +623,7 @@ ul.links_container2 {
   color: #fff;
 }
 
-.meet_image {
-  border-radius: 5px;
-  margin-top: 20px;
-  /* height: 450px; */
-  width: 100%;
-  object-fit: cover;
-}
 
-.meet_content li {
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-  list-style-type: none;
-}
-
-.meet_list {
-  display: flex;
-  list-style-type: disc;
-}
-
-.right_mark {
-  height: 40px;
-  width: 50px;
-}
-
-/* .review_image {
-  border-radius: 5px;
-  margin-top: 30px;
-  width: 100%;
-  object-fit: cover;
-}
-
-.review_heading {
-  width: max-content;
-  margin: 10px auto;
-  font-size: 17px;
-  border-bottom: 2px solid #7620FF;
-}
-
-.review_content {
-  font-size: 17px;
-  text-align: left;
-}
-
-.review_pics {
-  border-radius: 5px;
-  margin-top: 20px;
-  width: 100%;
-  object-fit: cover;
-} */
-
-.myhash_btn {
-  margin: 20px 30px 50px;
-  width: 220px;
-  background-color: #7620ff;
-  padding: 15px;
-  outline: none;
-  border: none;
-  color: #fff;
-  font-size: 18px;
-  font-weight: bold;
-}
 
 .buy_btn {
   margin: 80px 25px 10px 25px;
@@ -956,10 +810,7 @@ ul.links_container2 {
   transform: rotateZ(360deg);
 }
 /* NAV */
-.logo_drmz {
-  /* margin-top: 30px; */
-  border-radius: 50%;
-}
+
 /* client_slider */
 .iot_5{
   height: 100px;
@@ -1101,27 +952,13 @@ ul.card_img_icons .img_on_icons, .utube_icon{
   width: 1100px;
   margin: 0 auto;
 }
-
-/* .our_team_card {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  background: #fff;
-  height: 140px;
-}
-.team_card {
-  background-color: teal;
-  height: 150px;
-  width: 200px;
-  margin: 100px 10px;
-} */
 .team_card_sec {
   margin: 0 auto;
   margin-top: 50px;
 }
 
 .address_container {
-  height:400px;
+  height:550px;
   padding: 2% 0%;
 }
 #main-heading{
@@ -1197,6 +1034,13 @@ ul.card_img_icons .img_on_icons, .utube_icon{
 .map_icon {
   height: 80px;
   width: 75px;
+}
+iframe{
+  margin-top: 15px;
+  float: left;
+}
+.iframe_drmz{
+  float: right;
 }
 /* Media querys */
 @media all and (min-width:360px) and (max-width: 768px) {
@@ -1277,15 +1121,9 @@ ul.card_img_icons .img_on_icons, .utube_icon{
     justify-content: center;
 
   }
-
   .links_heading {
     margin: 10px auto;
   }
-
-  /* ul.links_container {
-    padding: 10px;
-  } */
-
   .links_container li {
     margin: 0px auto;
   }
@@ -1313,8 +1151,6 @@ ul.card_img_icons .img_on_icons, .utube_icon{
     bottom: 3px;
     left: 0px;
   }
-
-
   .learn_webdev_heading {
     margin: 15px 0px auto;
     font-size: 24px;
@@ -1358,10 +1194,9 @@ ul.card_img_icons .img_on_icons, .utube_icon{
     margin: 20px;
   }
   .logo_drmz {
-    height: 80px;
-    width: 80px;
+    height: 75px;
+    width: 100px;
     margin-top: 0px;
-    border-radius: 50%;
   }
   ul.links_container2 {
     margin-top: 20px;
@@ -1377,7 +1212,4 @@ ul.card_img_icons .img_on_icons, .utube_icon{
 .address2_details p {
   width: 350px;
 }
-  /* .card {
-    margin: px 15px;
-  } */
 }

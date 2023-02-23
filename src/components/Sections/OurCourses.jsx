@@ -10,6 +10,9 @@ import Onlinecourse from "../../assets/img/online-course.png";
 import Offlinecourse from "../../assets/img/offline-course.png";
 import Physical_lodging from "../../assets/img/Phyical-lodging.png";
 import Recorded_Premium from "../../assets/img/Recorded-Premium.png";
+// import html_css from "../../assets/img/html_css.png";
+// import js_react from "../../assets/img/js_react.png";
+
 // import Youtube from "../../assets/img/youtube.svg";
 // import Live_streaming from "../../assets/img/png-transparent-live-streaming-youtube-removebg-preview.png";
 // import pic01 from "../../assets/img/pic01.jpg";
