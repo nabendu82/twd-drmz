@@ -831,7 +831,7 @@ ul.links_container2 {
 .cards_container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center;F */
   margin: 0 auto;
   /* height: 400px; */
 }
@@ -882,7 +882,7 @@ ul.links_container2 {
   margin-bottom: 5px;
 }
 .card_description {
-  width: 180px;
+  width: 185px;
   font-size: 12px;
   font-weight: bold;
   text-align: center;

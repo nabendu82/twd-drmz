@@ -27,8 +27,12 @@ export default function Connect() {
                       Shop no 63-64, Block - G, Sahkari Parisar Phase I,Near
                       Piplani Petrol Pump, Kalpana Nagar on the main road.
                     </p>
-                    <a className="mobile_num" href="tel:+07554928128">
-                      0755 492 8128
+                    <br />
+                    <p>
+                      <b>Calling Hours : 11am - 7pm(Mon-Sat)</b>{" "}
+                    </p>
+                    <a className="mobile_num" href="tel:+07554236935">
+                      0755 423 6935
                     </a>
                   </div>
                   <iframe
@@ -48,6 +52,10 @@ export default function Connect() {
                     <p>
                       Plot no. 69B, near Chetak bridge, Kasturba Nagar, Bhopal,
                       Madhya Pradesh 462011
+                    </p>
+                    <br />
+                    <p>
+                      <b>Calling Hours : 11am - 7pm(Mon-Sat)</b>{" "}
                     </p>
                     <a className="mobile_num" href="tel:+07554236935">
                       0755 423 6935
