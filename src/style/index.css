@@ -966,6 +966,7 @@ ul.card_img_icons .img_on_icons, .utube_icon{
 }
 .two {
   color: #cf1e2b;
+  
 }
 
 .address1_heading{
@@ -1005,6 +1006,8 @@ ul.card_img_icons .img_on_icons, .utube_icon{
 } */
 .a1{
   float: left;
+  /* border-right: 6px solid #0f59bb;
+  height: 400px; */
 }
 .address1_details {
   text-align: left;
@@ -1042,6 +1045,13 @@ iframe{
 .iframe_drmz{
   float: right;
 }
+.discount_container {
+  background-color: #ffda1c;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
 /* Media querys */
 @media all and (min-width:360px) and (max-width: 768px) {
 
@@ -1210,6 +1220,6 @@ iframe{
  }
  .address1_details p,
 .address2_details p {
-  width: 350px;
+  width: 355px;
 }
 }

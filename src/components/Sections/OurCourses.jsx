@@ -80,11 +80,31 @@ export default function Ourcourses() {
 
         <div className="learn_sec lightBg">
           <h1 className="font60 full_stack_heading">OUR COURSES</h1>
+          <div className="discount_container">
+            <h3>Flat 10% discount on all courses for first 20 students</h3>
+          </div>
           <div className="cards_sec">
             <div className="row">
               <div className="card col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
-                <h1 className="card_heading">HTML-CSS PHYSICAL BOOTCAMP</h1>
+                <h1 className="card_heading">
+                  FULL STACK WEB DEVELOPMENT BOOTCAMP
+                </h1>
+                <b>(3 months)</b>
                 <img className="batch" src={Onlinecourse} alt="online" />
+                <a
+                  href="https://docs.google.com/document/d/1hyA_Nu8vy7zCToy5LerTWoX_lacWQD5X6Tcs0JMe4qE/edit?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="enroll_btn animate pointer radius8">
+                    Learn more
+                  </button>
+                </a>
+              </div>
+              <div className="card col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
+                <h1 className="card_heading">HTML-CSS PHYSICAL BOOTCAMP</h1>
+                <b>(1 month)</b>
+                <img className="batch" src={Offlinecourse} alt="online" />
                 <a
                   href="https://docs.google.com/document/d/1UMIjI8qxIg2xzKmvUNGIJXSylgfxTyujbxsSook0Bfg/edit?usp=sharing"
                   target="_blank"
@@ -99,7 +119,8 @@ export default function Ourcourses() {
                 <h1 className="card_heading">
                   JAVASCRIPT-REACT PHYSICAL BOOTCAMP
                 </h1>
-                <img className="batch" src={Offlinecourse} alt="offline" />
+                <b>(1 month)</b>
+                <img className="batch" src={Physical_lodging} alt="offline" />
                 <a
                   href="https://docs.google.com/document/d/1UZs2O0mejUxr2CTasrN7ZEVclDDiZj4UfLwl1LWQOws/edit?usp=sharing"
                   target="_blank"
@@ -112,22 +133,10 @@ export default function Ourcourses() {
               </div>
               <div className="card3 col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
                 <h1 className="card_heading">ADVANCED REACT-NODE-NEXTJS</h1>
-                <img className="batch3" src={Physical_lodging} alt="css" />
+                <b>(1 month)</b>
+                <img className="batch3" src={Recorded_Premium} alt="css" />
                 <a
                   href="https://docs.google.com/document/d/1__EKGfOYHONQtcfk1r8Zp_qJAytc3wUdavvZKPGOtEU/edit?usp=sharing"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="enroll_btn1 animate pointer radius8">
-                    Learn more
-                  </button>
-                </a>
-              </div>
-              <div className="card4 col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
-                <h1 className="card_heading">REACT-NATIVE PHYSICAL BATCH</h1>
-                <img className="batch" src={Recorded_Premium} alt="css" />
-                <a
-                  href="https://docs.google.com/document/d/10taK84fuu9pjtXj-GVxH54Ud4TEQr-e6f2a1oZUqw_o/edit?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -139,15 +148,16 @@ export default function Ourcourses() {
             </div>
             {/* second row */}
             <div className="row">
-              <div className="card col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
-                <h1 className="card_heading">ANGULAR PHYSICAL BATCH</h1>
-                <img className="batch" src={Onlinecourse} alt="online" />
+              <div className="card4 col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
+                <h1 className="card_heading">REACT-NATIVE PHYSICAL BATCH</h1>
+                <b>(1 month)</b>
+                <img className="batch" src={Onlinecourse} alt="css" />
                 <a
-                  href="https://docs.google.com/document/d/158i7tXSXeOCehs-QhqyWGQyejNQh_bQhS2uAHW9xu5g/edit?usp=sharing"
+                  href="https://docs.google.com/document/d/10taK84fuu9pjtXj-GVxH54Ud4TEQr-e6f2a1oZUqw_o/edit?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="enroll_btn animate pointer radius8">
+                  <button className="enroll_btn1 animate pointer radius8">
                     Learn more
                   </button>
                 </a>

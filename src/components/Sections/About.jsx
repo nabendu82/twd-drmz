@@ -250,7 +250,9 @@ export default function About() {
                     </ul>
                     <div className="card-body">
                       <h4 className="card-heading">Nabendu Biswas</h4>
-                      <p className="card__para">Founder & ReactJS, TWD</p>
+                      <p className="card__para">
+                        Founder & ReactJS Trainer, TWD
+                      </p>
                       <p className="card_description">
                         16+ Years of IT Experience in top companies like Oracle
                         and JP Morgan
