@@ -1167,7 +1167,11 @@ iframe{
     border-bottom: 2px solid #7620FF;
     width: 100%;
   }
-
+  .discount_container {
+    height: 30px;
+    font-size: 12px;
+    padding: 5px;
+  }
   .row {
     flex-wrap: wrap !important;
     display: flex;
