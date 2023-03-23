@@ -725,7 +725,7 @@ ul.links_container2 {
 .card2,
 .card3,
 .card4 {
-  height: 400px;
+  height: 430px;
   background-color: #fff;
   text-align: center;
   padding: 20px 10px;
@@ -762,7 +762,12 @@ ul.links_container2 {
   line-height: 1.2;
   width: 18vw;
 }
-
+.card_heading_c{
+  font-size: 1.2rem;
+  color: #383838;
+  line-height: 1.2;
+ width: 100px;
+}
 .batch {
   height: 200px;
   width: 180px;
@@ -1049,9 +1054,30 @@ iframe{
   background-color: #ffda1c;
   height: 50px;
   text-align: center;
-  padding: 10px;
+  padding: 12px;
+  margin-top: 10px;
 }
-
+.discount_container h3 b{
+  /* color: #0f59bb; */
+  color: red;
+}
+.duration{
+  color: red;
+}
+.blink {
+  animation: blinker 1.8s linear infinite;
+}
+@keyframes blinker {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  80% {
+      opacity: 1;
+  }
+}
 /* Media querys */
 @media all and (min-width:360px) and (max-width: 768px) {
 
@@ -1169,8 +1195,8 @@ iframe{
   }
   .discount_container {
     height: 30px;
-    font-size: 12px;
-    padding: 5px;
+    font-size: 10px;
+    padding: 8px;
   }
   .row {
     flex-wrap: wrap !important;
@@ -1225,5 +1251,9 @@ iframe{
  .address1_details p,
 .address2_details p {
   width: 355px;
+}
+.batch {
+  height: 150px;
+  width: 155px;
 }
 }

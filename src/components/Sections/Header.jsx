@@ -19,7 +19,6 @@ export default function Header() {
       <RightSide>
         <ImageWrapper>
           <img src={header_img} alt="header_image" className="header_image" />
-          {/* <ReactPlayer controls url="https://youtu.be/fnABJznWWMg" /> */}
         </ImageWrapper>
         <GreyDiv className="lightBg"></GreyDiv>
       </RightSide>

@@ -10,15 +10,14 @@ import Onlinecourse from "../../assets/img/online-course.png";
 import Offlinecourse from "../../assets/img/offline-course.png";
 import Physical_lodging from "../../assets/img/Phyical-lodging.png";
 import Recorded_Premium from "../../assets/img/Recorded-Premium.png";
-// import html_css from "../../assets/img/html_css.png";
-// import js_react from "../../assets/img/js_react.png";
-
-// import Youtube from "../../assets/img/youtube.svg";
-// import Live_streaming from "../../assets/img/png-transparent-live-streaming-youtube-removebg-preview.png";
-// import pic01 from "../../assets/img/pic01.jpg";
-// import Table from "../Table";
 
 export default function Ourcourses() {
+  // timer();
+  // function timer() {
+  //   let blinker = document.getElementById("blinker");
+  //   blinker.style.opacity = blinker.style.opacity === 0 ? 1 : 0;
+  // }
+  // setTimeout(timer, 1000);
   return (
     <Wrapper id="learn">
       <div className="lightBg" style={{ padding: "50px 0" }}>
@@ -29,59 +28,13 @@ export default function Ourcourses() {
       <div className="whiteBg" style={{ padding: "60px 0" }}>
         {/* <h1 className="font60 full_stack_heading">LEARN</h1> */}
 
-        <div className="container">
-          {/* <h1 className="font40 extraBold sec_headings">LEARN</h1> */}
-          <HeaderInfo>
-            <div className="row">
-              {/* <div className="block_1 col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <img className="learn_image" src={pic01} alt="learn_pic" />
-                <br />
-                <p className="font13 learn_content">
-                  Web-development is one of the highly paid job and fulfilling
-                  career in the world. With the rise of the startup ecosystem,
-                  anyone can be a developer. You don't need to be from a
-                  computer science background.
-                  <br />
-                  <br />
-                  But people from non-computer background or people stuck in
-                  other non-coding jobs find it difficult to get into web-app
-                  development. There is a information overload, where people get
-                  confused on what technologies to learn and how to get inside.
-                  I have created a course specially designed for Production
-                  Support, Testing or even non-computer background to get into
-                  development. Learn more about all courses{" "}
-                  <a
-                    href="https://school.twd.codes/"
-                    target="_blank"
-                    className="learn_school_link"
-                    rel="noreferrer"
-                  >
-                    here
-                  </a>{" "}
-                  🚀
-                </p>
-              </div>
-              <div className="block_2 col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <div className="utube">
-                  <img className="utube_heading" src={Youtube} alt="youtube" />
-                  <span className="span_sch">SCHEDULE</span>
-                  <img
-                    className="live"
-                    src={Live_streaming}
-                    alt="live_stream"
-                  />
-                </div>
-                <Calendar />
-                <Table />
-              </div> */}
-            </div>
-          </HeaderInfo>
-        </div>
-
         <div className="learn_sec lightBg">
           <h1 className="font60 full_stack_heading">OUR COURSES</h1>
           <div className="discount_container">
-            <h3>Flat 10% discount on all courses for first 20 students</h3>
+            <h3 className="blink" id="blinker">
+              Flat <b>10%</b> discount on all courses of <b>TWD</b> for first 20
+              students
+            </h3>
           </div>
           <div className="cards_sec">
             <div className="row">
@@ -89,7 +42,12 @@ export default function Ourcourses() {
                 <h1 className="card_heading">
                   FULL STACK WEB DEVELOPMENT BOOTCAMP
                 </h1>
-                <b>(3 months)</b>
+                <b>
+                  <b className="duration">Duration:</b> 3 months
+                </b>
+                <b>
+                  <b className="duration">Fee:</b> 13000/-
+                </b>
                 <img className="batch" src={Onlinecourse} alt="online" />
                 <a
                   href="https://docs.google.com/document/d/1hyA_Nu8vy7zCToy5LerTWoX_lacWQD5X6Tcs0JMe4qE/edit?usp=sharing"
@@ -103,7 +61,12 @@ export default function Ourcourses() {
               </div>
               <div className="card col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
                 <h1 className="card_heading">HTML-CSS PHYSICAL BOOTCAMP</h1>
-                <b>(1 month)</b>
+                <b>
+                  <b className="duration">Duration:</b> 1 month
+                </b>
+                <b>
+                  <b className="duration">Fee:</b> 5000/-
+                </b>
                 <img className="batch" src={Offlinecourse} alt="online" />
                 <a
                   href="https://docs.google.com/document/d/1UMIjI8qxIg2xzKmvUNGIJXSylgfxTyujbxsSook0Bfg/edit?usp=sharing"
@@ -119,8 +82,13 @@ export default function Ourcourses() {
                 <h1 className="card_heading">
                   JAVASCRIPT-REACT PHYSICAL BOOTCAMP
                 </h1>
-                <b>(1 month)</b>
-                <img className="batch" src={Physical_lodging} alt="offline" />
+                <b>
+                  <b className="duration">Duration:</b> 1 month
+                </b>
+                <b>
+                  <b className="duration">Fee:</b> 5000/-
+                </b>
+                <img className="batch3" src={Physical_lodging} alt="offline" />
                 <a
                   href="https://docs.google.com/document/d/1UZs2O0mejUxr2CTasrN7ZEVclDDiZj4UfLwl1LWQOws/edit?usp=sharing"
                   target="_blank"
@@ -133,8 +101,13 @@ export default function Ourcourses() {
               </div>
               <div className="card3 col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
                 <h1 className="card_heading">ADVANCED REACT-NODE-NEXTJS</h1>
-                <b>(1 month)</b>
-                <img className="batch3" src={Recorded_Premium} alt="css" />
+                <b>
+                  <b className="duration">Duration:</b> 1 month
+                </b>
+                <b>
+                  <b className="duration">Fee:</b> 5000/-
+                </b>
+                <img className="batch" src={Recorded_Premium} alt="css" />
                 <a
                   href="https://docs.google.com/document/d/1__EKGfOYHONQtcfk1r8Zp_qJAytc3wUdavvZKPGOtEU/edit?usp=sharing"
                   target="_blank"
@@ -150,7 +123,12 @@ export default function Ourcourses() {
             <div className="row">
               <div className="card4 col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
                 <h1 className="card_heading">REACT-NATIVE PHYSICAL BATCH</h1>
-                <b>(1 month)</b>
+                <b>
+                  <b className="duration">Duration:</b> 1 month
+                </b>
+                <b>
+                  <b className="duration">Fee:</b> 5000/-
+                </b>
                 <img className="batch" src={Onlinecourse} alt="css" />
                 <a
                   href="https://docs.google.com/document/d/10taK84fuu9pjtXj-GVxH54Ud4TEQr-e6f2a1oZUqw_o/edit?usp=sharing"
@@ -164,6 +142,12 @@ export default function Ourcourses() {
               </div>
               <div className="card2 col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
                 <h1 className="card_heading">IoT WITH ARDUINO UNO & ESP32</h1>
+                <b>
+                  <b className="duration">Duration:</b> 1 month
+                </b>
+                <b>
+                  <b className="duration">Fee:</b> 5000/-
+                </b>
                 <img className="batch" src={Offlinecourse} alt="offline" />
                 <a
                   href="https://docs.google.com/document/d/1yzVAuArvSxvo_Xe_AhLI77mCpPtpH7e0/edit?usp=sharing&ouid=115889291254491795887&rtpof=true&sd=true"
@@ -179,6 +163,12 @@ export default function Ourcourses() {
                 <h1 className="card_heading">
                   EMBEDDED SYSTEM WITH AVR CONTROLLER
                 </h1>
+                <b>
+                  <b className="duration">Duration:</b> 1 month
+                </b>
+                <b>
+                  <b className="duration">Fee:</b> 5000/-
+                </b>
                 <img className="batch3" src={Physical_lodging} alt="css" />
                 <a
                   href="https://docs.google.com/document/d/12waWysUn-1iTFJb6EQNpOZsrgIwXqgY9/edit?usp=sharing&ouid=115889291254491795887&rtpof=true&sd=true"
@@ -191,7 +181,13 @@ export default function Ourcourses() {
                 </a>
               </div>
               <div className="card4 col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
-                <h1 className="card_heading">C C++ COURSE</h1>
+                <h1 className="card_heading_c">C C++ COURSE </h1>
+                <b>
+                  <b className="duration">Duration:</b> 1 month
+                </b>
+                <b>
+                  <b className="duration">Fee:</b> 5000/-
+                </b>
                 <img className="batch" src={Recorded_Premium} alt="css" />
                 <a
                   href="https://docs.google.com/document/d/1er8_NPcmXysgVNfeJcUEHH6Mr2QKv8gG/edit?usp=share_link&ouid=115889291254491795887&rtpof=true&sd=true"
@@ -213,13 +209,4 @@ export default function Ourcourses() {
 
 const Wrapper = styled.section`
   width: 100%;
-`;
-
-const HeaderInfo = styled.div`
-  display: flex;
-  justify-content: center;
-  // text-align: center;
-  @media (max-width: 860px) {
-    text-align: center;
-  }
 `;
